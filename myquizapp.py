@@ -41,7 +41,7 @@ def askQuestion():
 	questions[index].GUIconstruct(window).pack()
 
 questions = []
-file = open("Chapter 28 Biology.txt", "r")
+file = open("questions.txt", "r")
 line = file.readline()
 while(line != ""):
     questionString = line
